@@ -1,0 +1,184 @@
+ECODRIVE PROPRIETARY SOURCE-AVAILABLE LICENSE
+Version 1.0, May 2026
+
+Copyright (c) 2025–2026 EcoDrive Core Team
+  Ronit Bhattacherjee   (R2142230402)
+  Harsh Vardhan Sharma  (R2142230391)
+  Arin Bansal           (R2142231615)
+  Aditya Agarwal        (R2142231136)
+
+All rights reserved.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+DEFINITIONS
+
+"Software" refers to the EcoDrive application, including all source
+code, compiled binaries, assets, documentation, datasets, algorithms,
+AI prompts, model configurations, and any other files contained in
+this repository.
+
+"Core Team" refers exclusively and collectively to the four individuals
+named above. No other person, entity, organisation, or AI system is
+or may become a member of the Core Team under any circumstance,
+including by employment, assignment, contribution, or court order,
+without the unanimous written consent of all four named members.
+
+"User" refers to any individual or entity that downloads, installs,
+or runs the Software.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 1 — GRANT OF RIGHTS TO USERS
+
+Subject to full compliance with all terms and conditions of this
+License, the Core Team hereby grants every User a limited, worldwide,
+royalty-free, non-exclusive, non-transferable, non-sublicensable
+right to:
+
+  (a) Download a copy of the Software from the official repository;
+  (b) Compile the Software on their own device;
+  (c) Install and run the compiled Software on their own personal
+      Android device(s) for personal, non-commercial use only.
+
+This grant is the entirety of rights provided to any User. No
+additional rights are granted, implied, or transferable.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 2 — EXCLUSIVE RIGHTS RESERVED TO THE CORE TEAM
+
+The following rights are reserved exclusively and permanently to the
+Core Team and may not be exercised by any User or third party under
+any circumstances:
+
+  (a) MODIFICATION: No person outside the Core Team may alter, edit,
+      adapt, translate, refactor, patch, merge, or otherwise modify
+      any part of the Software — including source code, assets,
+      datasets, documentation, configuration files, AI prompts, and
+      model parameters — in whole or in part, for any purpose
+      whatsoever.
+
+  (b) DERIVATIVE WORKS: No person outside the Core Team may create
+      any work derived from, based upon, or incorporating any portion
+      of the Software, whether or not the resulting work is
+      substantially similar to the original.
+
+  (c) DISTRIBUTION: No person outside the Core Team may publish,
+      upload, share, mirror, host, transmit, broadcast, or otherwise
+      distribute the Software or any copy thereof, whether in original
+      or modified form, through any medium or channel, including but
+      not limited to app stores, file-sharing platforms, package
+      registries, cloud storage, or physical media.
+
+  (d) COMMERCIAL USE: No person outside the Core Team may use the
+      Software or any portion thereof for any commercial purpose,
+      including but not limited to: selling access to the Software,
+      incorporating it into a paid product or service, using it to
+      generate revenue directly or indirectly, or licensing it to
+      third parties.
+
+  (e) SUBLICENSING: No User may grant any rights in the Software to
+      any other person or entity.
+
+  (f) REVERSE ENGINEERING FOR REDISTRIBUTION: No User may
+      decompile, disassemble, or reverse-engineer the Software for
+      the purpose of reproducing, redistributing, or competing with
+      the Software or any planned commercial product of the Core Team.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 3 — FUTURE COMMERCIAL RIGHTS
+
+The Core Team expressly reserves the right to:
+
+  (a) Release future versions of the Software under different license
+      terms, including fully proprietary or commercially licensed terms;
+  (b) Sell, license, or commercialise the Software or any derivative
+      thereof at any future date without notice to existing Users;
+  (c) Remove public access to the Software repository at any time
+      without obligation or liability.
+
+Any commercial version released by the Core Team shall be governed
+solely by the terms of that separate commercial agreement and shall
+not be subject to this License.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 4 — CONTRIBUTIONS
+
+The Core Team does not accept unsolicited code contributions,
+pull requests, or patches from any party outside the Core Team.
+Any code, suggestion, idea, or content submitted to the repository
+by any outside party — through any channel — shall be considered
+a voluntary donation to the Core Team, irrevocably assigned in full
+to the Core Team, and the submitter waives all rights thereto,
+including moral rights, to the maximum extent permitted by law.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 5 — ATTRIBUTION
+
+Any permitted use of the Software must retain this License file in
+full, the copyright notice above, and a clear attribution to:
+
+  "EcoDrive by Ronit Bhattacherjee, Harsh Vardhan Sharma,
+   Arin Bansal, and Aditya Agarwal — UPES Dehradun"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 6 — NO WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY OF
+EMISSION ESTIMATES, OR NON-INFRINGEMENT. THE CORE TEAM MAKES NO
+REPRESENTATION THAT THE SOFTWARE IS SUITABLE FOR ANY PARTICULAR
+PURPOSE OR THAT EMISSION ESTIMATES PRODUCED BY THE SOFTWARE COMPLY
+WITH ANY REGULATORY STANDARD.
+
+IN NO EVENT SHALL THE CORE TEAM BE LIABLE FOR ANY CLAIM, DAMAGES,
+OR OTHER LIABILITY — WHETHER IN AN ACTION OF CONTRACT, TORT, OR
+OTHERWISE — ARISING FROM, OUT OF, OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 7 — TERMINATION
+
+This License and all rights granted hereunder terminate automatically
+and immediately, without notice, if a User violates any term of this
+License. Upon termination, the User must delete all copies of the
+Software in their possession. The Core Team reserves the right to
+seek injunctive relief and monetary damages for any violation.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 8 — GOVERNING LAW
+
+This License shall be governed by and construed in accordance with
+the laws of India. Any disputes arising under or in connection with
+this License shall be subject to the exclusive jurisdiction of the
+courts of Dehradun, Uttarakhand, India.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SUMMARY (not a substitute for the full license above)
+
+  ✅  Download the Software              — PERMITTED
+  ✅  Run the Software on your device    — PERMITTED
+  ✅  Read the source code               — PERMITTED
+  ❌  Modify the source code             — PROHIBITED (Core Team only)
+  ❌  Distribute copies                  — PROHIBITED (Core Team only)
+  ❌  Sell or commercialise              — PROHIBITED (Core Team only)
+  ❌  Create derivative works            — PROHIBITED (Core Team only)
+  ❌  Sublicense to others               — PROHIBITED
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+For licensing enquiries, commercial partnerships, or permissions
+beyond the scope of this License, contact the Core Team at:
+
+  [your-contact-email@domain.com]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
