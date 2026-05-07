@@ -403,7 +403,7 @@ For commercial licensing enquiries: `[arinbansal02@gmail.com]`
 
 <div align="center">
 
-**Built with ❤️ for a greener India 🌿**
+**Built with 🧠😎🤯 for a greener India 🌿**
 
 *"The science of vehicle emission modelling deserves to be democratised, made transparent, and placed directly in the hands of every driver."*
 
