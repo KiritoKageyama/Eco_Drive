@@ -201,13 +201,19 @@ Open in Android Studio → **Sync Gradle** → **Run**
 
 ## 📸 Screenshots
 
-| Main Calculator | Route Comparison | AI Chat |
-|:-:|:-:|:-:|
-| *[Add screenshot]* | *[Add screenshot]* | *[Add screenshot]* |
-
-| Sensitivity Analysis | Trip Dashboard | Settings |
-|:-:|:-:|:-:|
-| *[Add screenshot]* | *[Add screenshot]* | *[Add screenshot]* |
+| Main Calculator | Route Comparison | AI Chat |Developer Logs| Sensitivity Analysis | Trip Dashboard | Settings |
+<img width="1440" height="3168" alt="Screenshot_20260505_112616 jpg" src="https://github.com/user-attachments/assets/cd85fade-e151-4469-a881-f578149948ef" />
+<img width="1440" height="3168" alt="Screenshot_20260505_112608 jpg" src="https://github.com/user-attachments/assets/3eaf57e5-1873-4a2a-88ba-7cc6ac736bbd" />
+<img width="1440" height="3168" alt="Screenshot_20260505_112602 jpg" src="https://github.com/user-attachments/assets/e03b6755-e40c-4155-bb88-97a30cde219f" />
+<img width="1440" height="3168" alt="Screenshot_20260505_112553 jpg" src="https://github.com/user-attachments/assets/4456508c-9624-4b6f-ac7d-74e7726ed085" />
+<img width="1440" height="3168" alt="Screenshot_20260505_111755 jpg" src="https://github.com/user-attachments/assets/75f813dc-f9e3-4c4f-9725-afa81ad9d6fa" />
+<img width="1440" height="3168" alt="Screenshot_20260505_111023 jpg" src="https://github.com/user-attachments/assets/aa7cc0ef-40c0-41dd-bdc2-d46efccbd092" />
+<img width="1440" height="3168" alt="Screenshot_20260505_103513 jpg" src="https://github.com/user-attachments/assets/0cfa5546-653d-43df-b935-fecac0f8a38b" />
+<img width="1440" height="11387" alt="Screenshot_2026_0505_112544 jpg" src="https://github.com/user-attachments/assets/3d7ef8a0-04f8-4e45-bdd6-aaa2d4fd5d07" />
+<img width="1440" height="5282" alt="Screenshot_2026_0505_112439 jpg" src="https://github.com/user-attachments/assets/b0a6f1f7-7442-412e-84ab-373460b2dac3" />
+<img width="1440" height="12627" alt="Screenshot_2026_0505_112350 jpg" src="https://github.com/user-attachments/assets/d045a750-c26f-41f7-b198-ddba751b196a" />
+<img width="1440" height="10936" alt="Screenshot_2026_0505_112107 jpg" src="https://github.com/user-attachments/assets/3b1f9be4-9f22-444f-9bd0-c0ac7330d830" />
+<img width="1440" height="11991" alt="Screenshot_2026_0505_103559 jpg" src="https://github.com/user-attachments/assets/f40437dd-7287-42c2-91c5-b22972483c75" />
 
 ---
 
@@ -391,7 +397,7 @@ Copyright (c) 2025–2026 EcoDrive Core Team — UPES Dehradun
 
 See the full [`LICENSE`](LICENSE) file for complete legal terms.
 
-For commercial licensing enquiries: `[your-contact-email@domain.com]`
+For commercial licensing enquiries: `[arinbansal02@gmail.com]`
 
 ---
 
