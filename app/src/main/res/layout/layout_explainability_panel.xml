@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@color/colorBackground">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AI Analysis &amp; Transparency"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:layout_marginBottom="8dp" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        app:cardBackgroundColor="@color/colorCardBackground"
+        app:cardCornerRadius="8dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+            
+            <TextView
+                android:id="@+id/tvCalcHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="⚙️ Calculation Logic (Tap to expand)"
+                android:textStyle="bold"
+                android:textColor="@color/colorTextPrimary"
+                android:clickable="true"
+                android:focusable="true" />
+            
+            <TextView
+                android:id="@+id/tvCalcDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Detailed physics and multipliers will appear here..."
+                android:textColor="@color/colorTextSecondary"
+                android:textSize="12sp"
+                android:visibility="gone"
+                android:layout_marginTop="4dp" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/colorCardBackground"
+        app:cardCornerRadius="8dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+            
+            <TextView
+                android:id="@+id/tvAiHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🤖 AI Insights (Tap to expand)"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:clickable="true"
+                android:focusable="true" />
+            
+            <TextView
+                android:id="@+id/tvAiDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AI-generated scientific recommendations will appear here..."
+                android:textColor="@color/colorTextSecondary"
+                android:textSize="12sp"
+                android:visibility="gone"
+                android:layout_marginTop="4dp" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

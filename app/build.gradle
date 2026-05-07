@@ -1,0 +1,64 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.ecodrive'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.ecodrive"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+
+    flavorDimensions "appVariant"
+    productFlavors {
+        production {
+            dimension "appVariant"
+        }
+        clone {
+            dimension "appVariant"
+            applicationIdSuffix ".clone"
+            versionNameSuffix "-clone"
+            resValue "string", "app_name", "EcoDrive Clone"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.11.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.coordinatorlayout:coordinatorlayout:1.2.0'
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+    implementation 'org.osmdroid:osmdroid-android:6.1.18'
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+    
+    // MediaPipe GenAI - for on-device LLM
+    implementation 'com.google.mediapipe:tasks-genai:0.10.20'
+    
+    // Room components for database
+    def room_version = "2.6.1"
+    implementation "androidx.room:room-runtime:$room_version"
+    annotationProcessor "androidx.room:room-compiler:$room_version"
+
+    // Testing dependencies
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.mockito:mockito-core:5.5.0'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test:runner:1.5.2'
+}

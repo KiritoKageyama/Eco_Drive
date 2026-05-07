@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/colorBackground">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarDynamicTest"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorCardBackground"
+        app:title="Route &amp; CO2 Calculator"
+        app:titleTextColor="@color/colorTextPrimary"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Input Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="16dp">
+
+        <!-- Scenario Selector -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/colorCardBackground"
+            app:cardCornerRadius="12dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="@color/colorStroke"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PREDEFINED TEST SCENARIOS"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"
+                    android:letterSpacing="0.1"
+                    android:layout_marginBottom="8dp" />
+
+                <Spinner
+                    android:id="@+id/spinnerScenarios"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp" />
+
+                <TextView
+                    android:id="@+id/tvScenarioDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Select a scenario to auto-fill test parameters."
+                    android:textColor="@color/colorTextSecondary"
+                    android:textSize="11sp"
+                    android:layout_marginTop="4dp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Vehicle Selection -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/colorCardBackground"
+            app:cardCornerRadius="12dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="@color/colorStroke"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="VEHICLE CONFIGURATION"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"
+                    android:letterSpacing="0.1"
+                    android:layout_marginBottom="8dp" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:boxBackgroundColor="@color/colorBackground"
+                    app:boxStrokeColor="@color/colorStroke"
+                    android:layout_marginBottom="8dp">
+                    <AutoCompleteTextView
+                        android:id="@+id/spinnerTestCategory"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Select Vehicle Model"
+                        android:inputType="none"
+                        android:textColor="@color/colorTextPrimary"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:boxBackgroundColor="@color/colorBackground"
+                    app:boxStrokeColor="@color/colorStroke">
+                    <AutoCompleteTextView
+                        android:id="@+id/spinnerTestFuel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Select Fuel Type"
+                        android:inputType="none"
+                        android:textColor="@color/colorTextPrimary"/>
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Destination Input -->
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Destination"
+
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorTextPrimary"
+            android:layout_marginBottom="4dp" />
+
+        <EditText
+            android:id="@+id/etTestDestination"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Enter destination (e.g., Mumbai, Bangalore)"
+            android:inputType="text"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:textColor="@color/colorTextPrimary"
+            android:textColorHint="@color/colorTextSecondary"
+            android:background="@drawable/edit_text_border"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Average Speed Input -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Average Speed (km/h)"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorTextPrimary"
+            android:layout_marginBottom="4dp" />
+
+        <EditText
+            android:id="@+id/etTestAvgSpeed"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Enter average speed (1-300)"
+            android:inputType="numberDecimal"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:textColor="@color/colorTextPrimary"
+            android:textColorHint="@color/colorTextSecondary"
+            android:background="@drawable/edit_text_border"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Calculate Button -->
+        <Button
+            android:id="@+id/btnCalculateRoute"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Calculate Route &amp; CO2"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+
+    <!-- Map Section -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Route Map"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorTextPrimary"
+        android:layout_marginBottom="4dp" />
+
+    <org.osmdroid.views.MapView
+        android:id="@+id/mapViewTest"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Results Section -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Results"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorTextPrimary"
+        android:layout_marginBottom="4dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tvTestResults"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Results will appear here"
+            android:textSize="13sp"
+            android:textColor="@color/colorTextSecondary"
+            android:padding="12dp"
+            android:background="@drawable/edit_text_border"
+            android:visibility="gone" />
+
+    </ScrollView>
+
+</LinearLayout>
